@@ -131,11 +131,12 @@ footer{
     text-align: center;
     width: 100%;
     padding: 20px;
+    color: #ddba7c;
 }
 footer #footer-title{
     font-size: 80px;
     font-family: fantasy;
-    border-bottom: 3px solid black;
+    border-bottom: 1.5px solid rgba(0, 0, 0, 0.247);
     line-height: 0.1em;
     width: 80%;
     margin-left: auto;
@@ -144,7 +145,7 @@ footer #footer-title{
 footer #footer-sub-title{
     font-size: 40px;
     font-family: fantasy;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.247);
     line-height: 0.1em;
     width: 60%;
     margin-left: auto;
