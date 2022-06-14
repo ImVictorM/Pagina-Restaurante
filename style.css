@@ -49,7 +49,7 @@ h2{
     font-family: fantasy;
 }
 /*underline do titulo sobre nos*/
-#sobre h2 #sobre-underline, #menu h2 #menu-underline{
+.underline{
     text-decoration: underline;
     text-underline-offset: 18px;
 }
@@ -94,6 +94,36 @@ h3, h2{
     margin-top: 20px;
     margin-bottom: 100px;
 }
-
-
-
+#depoimentos{
+    background-color: black;
+    margin-top: 5%;
+    color: white;
+}
+#dep-container{
+    border: 3px solid red;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    text-align: start;
+}
+#dep-container div{
+    margin-bottom: 20%;
+}
+.right-name{
+    text-align: end;
+}
+#dep-container .left-image{
+    width: 20%;
+    border-radius: 50%;
+    float: left;
+    padding: 5px;
+    margin: 20px;
+}
+#dep-container .right-image{
+    width: 20%;
+    border-radius: 50%;
+    float: right;
+    padding: 5px;
+    margin: 20px;
+}
