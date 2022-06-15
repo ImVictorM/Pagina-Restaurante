@@ -1,0 +1,200 @@
+body{
+    background-image: url(images/choquette.jpg);
+    background-attachment: local;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center 0px;
+    margin: 0px;
+    background-color:#e6d7bf;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+header{
+    background-color: black;
+    width: 100%;
+    height: 5%;
+    padding: 20px;
+    position: fixed;
+    display: flex;
+    z-index: 30;
+    top: 0%;
+}
+nav{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+    
+nav ul div{
+    display: inline-block;
+    width: 20%;
+}
+nav ul{
+    list-style: none;
+    margin: 10px;
+    text-align: center;
+    padding: 0px;
+}
+nav ul div li{  
+    font-size: 25px;
+}
+nav ul div li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul div li a:hover{
+    color: #ddba7c;
+}
+h1{
+    font-size: 90px;
+    line-height: 80px;
+}
+#garfo-faca{
+    width: 60px;
+    margin-left: 30px;
+    max-width: none;
+    align-items: center;
+    display: flex;
+}
+section{
+    height: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+#sobre{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    margin-top: 23%;
+}
+h2{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    font-size: 60px;
+    text-decoration: overline;
+}
+h3{
+    font-size: 40px;
+}
+/*underline do titulo sobre nos*/
+.underline{
+    text-decoration: underline;
+    text-underline-offset: 18px;
+}
+
+#sobre p {
+    padding: 20px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+#sobre #equipe img{
+    width: 200px;
+    border-radius: 50%;
+}
+#sobre #equipe{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 80px 20px;
+}
+#sobre #equipe div{
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    vertical-align: middle;
+}
+h4, h3, h2, h1{
+    color: #ddba7c;
+    font-family: fantasy, serif;
+}
+#menu{
+    background-color: aliceblue;
+    margin-top: 5%;
+}
+#menu img{
+    width: 50%;
+}
+#menu p{
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+#depoimentos{
+    background-color: black;
+    margin-top: 5%;
+    color: white;
+}
+#dep-container{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: start;
+}
+#dep-container div{
+    margin-bottom: 20%;
+}
+.right-name{
+    text-align: end;
+}
+#dep-container .left-image{
+    width: 20%;
+    border-radius: 50%;
+    float: left;
+    padding: 5px;
+    margin: 20px;
+}
+#dep-container .right-image{
+    width: 20%;
+    border-radius: 50%;
+    float: right;
+    padding: 5px;
+    margin: 20px;
+}
+
+
+#contato{
+    background-color: aliceblue;
+    margin-top: 5%;
+    font-size: 30px;
+}
+#contato h2{
+    text-decoration: none;
+    font-size: 60px;
+    color: #ddba7c;
+    margin: 0px;
+}
+footer{
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 5px;
+    color: #ddba7c;
+    font-family: fantasy;
+    margin-top: 5%;
+}
+footer #footer-title{
+    font-size: 80px;
+    border-bottom: 1.5px solid #ddb97c3f;
+    line-height: 0.1em;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer #footer-sub-title{
+    font-size: 40px;
+    border-bottom: 1px solid #ddb97c3f;
+    line-height: 0.1em;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer p span{
+    background-color: rgb(0, 0, 0);
+    padding: 0px 10px;
+}
