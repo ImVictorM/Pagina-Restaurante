@@ -1,2 +1,2 @@
 # Pagina-Restaurante
-Página de restaurante feita com HTML e CSS
+Página de restaurante fictício feita com HTML e CSS como atividade opcional da Trybe
